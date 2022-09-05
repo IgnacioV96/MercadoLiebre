@@ -1,0 +1,447 @@
+* {
+    box-sizing: border-box;
+    font-family: roboto;
+    
+  }
+
+p{
+    font-size: 12px;
+}
+
+/* header */ 
+
+#header{
+    background-color: #EAC926;
+}
+
+.logobar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.logo{
+    max-width: 50%;    
+}
+
+.divbarrabusqueda{
+    display: flex;
+    justify-content: right;
+    width: 50%;
+    height: 30px;
+}
+
+.barrabusqueda{
+    width: 70%;
+    max-width: 200px;
+    border-radius: 5px;   
+    background-color: white;
+}
+
+.botonbarrabusqueda{
+    border-radius: 5px;
+    background-color: #ebebeb;   
+}
+
+.lema{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.navbar{
+    display: none;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 5px 0px;
+}
+
+.burgermenu{
+    background-color: #03264C;
+    color: white;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+/* main */
+
+#main{
+    background-color: #ebebeb;
+}
+
+.imagenbanner{
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+}
+
+.section{
+    width: 90%;
+    margin: auto;
+}
+
+.subtitulo{
+    color: #666;
+    font-size: 24px;
+}
+
+.articulo{
+    background-color: white
+}
+
+.imagenart{
+    width: 100%;
+    height: 80%
+}
+
+.divart{
+    border-top: 1px solid #ebebeb;
+    margin: 15px;
+}
+
+.iconoenvio{  
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    color: #39b54a;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    }
+
+    .divpyd{
+        display: flex;
+        padding: 10px;
+        margin-bottom: 15px;
+        align-items: center;
+    }
+
+.precio{
+    font-size: 18px;
+    width: 30%;
+    text-align: left;
+}
+
+.descuento{
+    font-size: 16px;
+    width: 65%;
+    color: #39b54a;
+    text-align: right;
+}
+
+.descripcion{
+    display: none;
+    font-size: 16px;
+    padding: 5px;
+
+}
+
+/* footer */ 
+
+#footer{
+    background-color: #ebebeb;
+}
+
+.articulofooter{
+    text-align: center;
+    height: 20vh;
+    margin: 20px;
+    padding: 20px;
+}
+
+.icono{
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+
+.articulofooter h3, p {
+    margin: 15px;
+}
+
+.copyright{
+    margin: auto;
+}
+
+/* Formulario Regristo */
+
+.mainformulario{
+    background-color:#ebebeb;
+}
+
+.formulario{
+    padding: 20px;    
+    margin: auto;
+    width: 90%;
+}
+
+.divform{
+    margin-bottom: 15px;
+}
+
+.labelform{
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.inputform{
+    width: 90%;
+    padding: 8px;
+}
+
+.radioform{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px
+}
+
+.checkboxform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15px
+}
+
+.botonform{
+    background-color: #39b54a;
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+/* tablet */
+
+@media (min-width:500px) {
+
+/* heater */ 
+
+    .loglem{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .logobar{
+        display: flex;
+        justify-content: space-around;
+        width: 66%;
+        margin: 0%;
+    }
+
+            .logo{
+                width: 40%;
+                max-width: 300px;
+                margin: 0%;    
+            }
+    
+            .divbarrabusqueda{
+                display: flex;
+                justify-content: right;
+                width: 40%;
+                height: 30px;
+                margin: 0%;
+            }
+
+                .barrabusqueda{
+                    width: 85%;
+                    max-width: 300px;
+                    border-radius: 5px;   
+                    background-color: white;
+                    margin: 0%;
+                }
+    
+                .botonbarrabusqueda{
+                    width: 15%;
+                    border-radius: 5px;
+                    background-color: #ebebeb; 
+                    margin: 0%;  
+                 }
+
+        .divlema{
+            width: 34%;
+            margin: 0%;
+            } 
+
+            .lema{
+                max-width: 100%;
+                text-align:justify right;
+                margin: 0%;
+                }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar ul{
+        display: flex;
+    }
+
+    .navbar li{
+        margin: 25px 5px 20px;
+    }
+
+    .burgermenu{
+        display: none;
+    }
+
+/* main */
+
+    .divarticulosoferta{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;       
+        }
+
+        .articulo{
+            width: 45%;
+            height: 25%;
+            margin: 10px;
+            }
+
+    .divpyd{
+                display: flex;
+                padding: 10px;
+                margin-bottom: 15px;
+                justify-content: space-between;
+                align-items: center;
+            }
+        
+        .precio{
+            font-size: 18px;
+            width: 30%;
+        }
+        
+        .descuento{
+            font-size: 16px;
+            width: 65%;
+            color: #39b54a;
+        }
+
+    .descripcion{
+        display: block;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+
+/* Footer */ 
+
+/* Formulario Regristo */
+
+.formulario{
+    max-width: 400px;
+    border: 5px solid #666;
+}
+
+.divform{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/* desktop */
+
+@media (min-width:900px) {
+
+/* header*/
+    
+    .loglem, .navbar{
+        max-width: 1200px;
+        margin: auto;
+    }   
+
+    .lema{
+        max-width: none;
+    }
+
+/* main */
+
+    .section{
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    .divarticulosoferta{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        }
+
+        .articulo{
+            width: 22%;
+            margin: 12px;
+            }
+
+/* footer */
+
+    #footer{
+        background-color: #ebebeb;
+    }
+
+        .mainfooter{
+            width: 90vw;
+            margin: auto;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .articulofooter{
+            width: 33%;
+            height: 30vh;
+            margin: 20px;
+            padding: 20px;
+        }
+        .articulofooter h3, p {
+            margin: 15px;
+        }
+
+        .copyright{
+            max-width: 1200px;
+            margin: auto;
+        }
+
+/* Formulario Regristo */
+
+}
