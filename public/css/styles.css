@@ -115,6 +115,10 @@ p{
     margin: 15px;
 }
 
+.iconoenvio:hover{  
+    transform: rotate(-90deg);
+    }
+
 .iconoenvio{  
     display: block;
     font-size: 16px;
@@ -125,6 +129,7 @@ p{
     border: 1px solid #39b54a;
     background-color: #FFF;
     border-radius: 50%;
+    transition: transform 450ms;
     }
 
     .divpyd{
@@ -147,10 +152,15 @@ p{
     text-align: right;
 }
 
+.descripcion:hover{
+    opacity: 1;
+}
+
 .descripcion{
-    display: none;
+    opacity: 0;
     font-size: 16px;
     padding: 5px;
+    transition: opacity 450ms;
 
 }
 
@@ -167,9 +177,14 @@ p{
     padding: 20px;
 }
 
+.icono:hover{
+    color:#39b54a;
+}
+
 .icono{
     margin-bottom: 10px;
     color: #1259c3;
+    transition: color 450ms;
 }
 
 .articulofooter h3, p {
@@ -220,6 +235,11 @@ p{
     margin: 15px
 }
 
+.botonform:hover{
+    background-color: #0022AA;
+    
+}
+
 .botonform{
     background-color: #39b54a;
     border: none;
@@ -227,6 +247,7 @@ p{
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
+    transition: background-color 450ms;
 }
 
 
